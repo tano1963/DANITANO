@@ -1,0 +1,8 @@
+list = ["Argentina", "Brasil"; "Mexico"; "Butan"]
+print list
+print "Ha usted visitado todos esos lugares, descarte el que no correspondeno visitado = int(raw_input("> "))
+sitios_visitados = []
+for i in range(number):
+	lugares = raw_input("> ")
+	sitios_visitados.append(lugares)
+print (sitios_visitados)

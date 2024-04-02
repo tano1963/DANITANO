@@ -1,0 +1,1 @@
+{'Daniel': '60', 'Juan ': '29', 'AnabellA 28': 'QUIT'}
