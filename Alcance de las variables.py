@@ -30,3 +30,17 @@ def scopetest(pepe, numero1, numero2):
     return print (spamm, x, y )
     
 scopetest("Globalllllll", 10, 30)
+
+print("")
+#Veamos de pasar un diccionario a una funcion
+midiccionario = dict()
+
+midiccionario = {"nombre" : "Daniel", "apellido" : "Guerri", "Edad" : 60}
+
+def diccionario(dic):
+    pepe = dic
+    print (pepe)
+
+diccionario(midiccionario)   
+    
+    
