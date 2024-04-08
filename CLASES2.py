@@ -6,15 +6,30 @@ Created on Mon Apr  8 09:20:12 2024
 """
 
 class persona:
-        def __init__(self, diccionario1):
+        def __init__(self, diccionario1, edad):
             self.diccionario1 = diccionario1
+            self.edad = edad
             print (diccionario1)
             diccionario2 = {}
-            diccionario2 ={"apellido": "Guerri"}
+            diccionario2 ={"apellido": "Guerri", "Edad": edad}
             print (diccionario1, diccionario2)
             
            
-#persona = persona() NO VA !!!!!
+
 diccionario1 = {}
-diccionario1 = {"Nombre": "Daniel"}   
-mi_persona = persona(diccionario1)       
+diccionario1 = {"Nombre": "Daniel"}  
+edad =61
+mi_edad= persona(diccionario1, edad) #aca es pomo que la llamo a la clase
+
+
+
+print("")
+"""
+class edad:   
+    def __init__(self, edad):
+        self.edad = edad
+        print (edad)
+
+
+mi_edade = edad(60)
+"""
