@@ -32,6 +32,8 @@ print(nombre)
 print (apellido)
 
 
+
+
 #my_person = Persona(nomb.nombre, apell.apellido)
 
 #print(f"{my_person.nombre} {my_person.apellido}")
