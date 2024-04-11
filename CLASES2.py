@@ -21,7 +21,7 @@ diccionario1 = {"Nombre": "Daniel"}
 edad =61
 mi_edad= persona(diccionario1, edad) #aca es pomo que la llamo a la clase
 
-
+print (type(mi_edad))
 
 print("")
 """
