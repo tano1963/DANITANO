@@ -6,12 +6,8 @@ Created on Thu Apr 11 17:19:00 2024
 """
  #Ingreso el String1
 
-
-
-
 def cuentaletras(string1: str, string2: str ):
-    print (string1)
-    print (string2)
+
     #Cuento las letras del string 1 y guardo el valor
     index1 =0
     for  i in string1:
@@ -24,10 +20,12 @@ def cuentaletras(string1: str, string2: str ):
         index2 = index2+1
     return index2
     
-    
+ #Ingreso el String1  
 string1 =  input("---->Ingrese el string1:")
  #Ingreso el String2
 string2 =  input("---->Ingrese el string2:")
+
+
 index1= cuentaletras(string1, string2)
 index2= cuentaletras(string1, string2)
 print(index1)
