@@ -21,7 +21,7 @@ def cuentaletras(string1: str, string2: str ):
     return index2
     
  #Ingreso el String1  
-string1 =  input("---->Ingrese el string1:")
+string1 =  input("---->>Ingrese el string1:")
  #Ingreso el String2
 string2 =  input("---->Ingrese el string2:")
 
